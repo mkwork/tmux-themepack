@@ -17,7 +17,7 @@ set -g status-style fg=colour240,bg=colour233
 # Left side of status bar
 set -g status-left-style bg=colour233,fg=colour243
 set -g status-left-length 40
-set -g status-left "#[fg=colour232,bg=colour227,bold] #S #[fg=colour227,bg=colour240,nobold]#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour235]#[fg=colour240,bg=colour235] #I:#P #[fg=colour235,bg=colour233,nobold]"
+set -g status-left "#[fg=colour232,bg=colour227,bold] #S #[fg=colour227,bg=colour240,nobold]#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour235]#[fg=colour240,bg=colour235] #I:#P #[fg=colour235,bg=colour233,nobold]"
 
 # Right side of status bar
 set -g status-right-style bg=colour233,fg=colour243
@@ -26,7 +26,7 @@ set -g status-right "#[fg=colour235,bg=colour233]#[fg=colour240,bg=colour235]
 
 # Window status
 set -g window-status-format "  #I:#W#F  "
-set -g window-status-current-format "#[fg=colour233,bg=black]#[fg=colour227,nobold] #I:#W#F #[fg=colour233,bg=black,nobold]"
+set -g window-status-current-format "#[fg=colour233,bg=black]#[fg=colour227,nobold] #I:#W#F #[fg=colour233,bg=black,nobold]"
 
 # Current window status
 set -g window-status-current-style bg=colour227,fg=colour235
